@@ -1,4 +1,3 @@
-# writing
 def appending():
     
     file2 = open('greeting.txt', 'a')
