@@ -1,4 +1,4 @@
-# writing
+
 def writingto():
     
     file2 = open('greeting.txt', 'w') #Creates a file and opens it for edit
@@ -13,4 +13,14 @@ def writingto():
     
     file2.close()
     print("File close")
+    <<<<<<< appending
+def appending():
+    
+    file2 = open('greeting.txt', 'a')
+    
+    file2.write("\n Hope you have a good day") #adds new thiings at the end
+    
+    file2.close()
+    
+ 
     
